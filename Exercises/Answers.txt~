@@ -1,0 +1,4 @@
+7. What's the major difference between an Array and a Hash?
+	A: The objects or values in an Array are mapped to numbered indices. The objects in a Hash are mapped to other objects called "keys".
+10. Can hash values be arrays? Can you have an array of hashes? (give examples)
+	A: Both things can be done. h = {array: [1, 2, 3]} is a valid hash. arr = [{a: 1, b: 2}, {c: 3, d: 4}] is a valid array.

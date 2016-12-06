@@ -1,0 +1,6 @@
+7. What's the major difference between an Array and a Hash?
+	A: The objects or values in an Array are mapped to numbered indices. The objects in a Hash are mapped to other objects called "keys".
+10. Can hash values be arrays? Can you have an array of hashes? (give examples)
+	A: Both things can be done. h = {array: [1, 2, 3]} is a valid hash. arr = [{a: 1, b: 2}, {c: 3, d: 4}] is a valid array.
+11. ruby-doc.org honestly seems like the most straightforward and easy to use of the apis that I looked at.
+17. The message "These hashes are the same!" will print. Although the two hashes use different assignment methods for different keys and put the key-value pairs in different orders, each hash contains all of the same keys mapped to the same values, so the == function will return true.
